@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    font-size: 20px;
+   
+}
+
+a:hover{
+    color: #D3A518;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#main-cell{
+    background-image: linear-gradient(to top,#A0729B,#8275AC,#527AB4);
+}
+
+.link-container{
+   list-style-type: none;
+   display: flex;
+   justify-content: flex-end;
+}
+
+li{
+    padding:1rem;
+}
+a{
+    color: #F6F9FF;
+}
+
+li:first-child{
+margin-right: auto;
+}
+
+.img-text{
+  text-align: center;  
+  font-size: 75px;
+  font-family: 'Anton', sans-serif;
+}
+h1{
+    text-align: center;
+    padding-top:1.5rem;
+    padding-bottom: 0.6rem;
+    font-size: 1.5rem;
+    color: #F6F9FF;
+}
+.about-me{
+    color: #F6F9FF;
+    font-size: 1.1rem;
+    padding: 0 1rem 1rem 1rem;
+    text-align:justify
+}
+
