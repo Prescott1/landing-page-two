@@ -3,11 +3,6 @@
     padding: 0%;
     font-family: sans-serif;
     font-size: 20px;
-   
-}
-
-a:hover{
-    color: #D3A518;
 }
 
 a:link{
@@ -53,4 +48,6 @@ h1{
     padding: 0 1rem 1rem 1rem;
     text-align:justify
 }
+
+
 
