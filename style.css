@@ -1,41 +1,6 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: sans-serif;
-    font-size: 20px;
-}
 
-a:link{
-    text-decoration: none;
+h1{
+  padding: 10px 0px 10px 0px;
 }
-
-#main-cell{
-    background-image: linear-gradient(to top,#A0729B,#8275AC,#527AB4);
-}
-
-.link-container{
-   list-style-type: none;
-   display: flex;
-   justify-content: flex-end;
-   background-color: #527AB4;
-}
-
-li{
-    padding:1rem;
-}
-a{
-    color: #F6F9FF;
-}
-
-li:first-child{
-margin-right: auto;
-}
-
-.img-text{
-  text-align: center;  
-  font-size: 75px;
-  font-family: 'Anton', sans-serif;
-}
-
 
 
