@@ -43,6 +43,20 @@ const OBJECTWITHARRAY = {
     likes: ["riding","hiking","walking","running","video games", "coding"]
 };
 
-const addThisUp = (sumOne = 20, sumTwo = 75) => sumOne + sumTwo;
+const addThisUp = (sumOne = 20, sumTwo = 75) => sumOne + sumTwo; // A arrow function with fallback values of 20 and 75.
 
+const TOSMALL = "Still to small";
+const GOHIGHER = "Go higher";
+const THATSRIGHT = "That's right";
 
+const userInput = (sum) => {
+    if(sum <= 0){
+        return "WAY TO SMALL"
+    } else if (sum <= 5){
+        return TOSMALL
+    } else if (sum <= 10){
+        return GOHIGHER 
+    } else {
+        return THATSRIGHT
+    }
+};
