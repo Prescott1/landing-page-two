@@ -41,6 +41,8 @@ const OBJECTWITHARRAY = {
     myPassword: "GreenPurple",
     myAge: 10000,
     likes: ["riding","hiking","walking","running","video games", "coding"]
-}
+};
+
+const addThisUp = (sumOne = 20, sumTwo = 75) => sumOne + sumTwo;
 
 
