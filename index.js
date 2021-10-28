@@ -60,3 +60,6 @@ const userInput = (sum) => {
         return THATSRIGHT
     }
 };
+
+
+const RESTFUNCTION = (...sums) => sums; // I created a arrow function with the rest parameter of sums. so now we can add lots of inputs and it will be stored in a array.
