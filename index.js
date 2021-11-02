@@ -72,6 +72,23 @@ const ThisThing = (name, age, gender) => ({name, age, gender});
 
 
 
+const bicycle = {
+    gear: 2,
+        setGear(newGear){
+            this.gear = newGear;
+        }
+};
 
+bicycle.setGear(10);
+
+console.log(bicycle.gear);
+
+class UserName{
+    constructor(name){
+        this.name = name;
+    }
+}
+
+const name = new UserName("Jordan")
 
 
