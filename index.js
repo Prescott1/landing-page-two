@@ -62,4 +62,16 @@ const userInput = (sum) => {
 };
 
 
-const RESTFUNCTION = (...sums) => sums; // I created a arrow function with the rest parameter of sums. so now we can add lots of inputs and it will be stored in a array.
+const RESTFUNCTION = (...sums) => sums; // I created a arrow function with the rest parameter of sums. 
+
+const ARRAYOFNUMS = [454,567,768,23,45,890];
+
+const REDUCARRAYOFNUMS = ARRAYOFNUMS.reduce ((total,amount) => total + amount);
+
+const ThisThing = (name, age, gender) => ({name, age, gender});
+
+
+
+
+
+
