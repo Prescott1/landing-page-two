@@ -91,3 +91,16 @@ class UserName{
 
 const name = new UserName("Jordan")
 
+
+
+class UserInfo{
+    constructor(userName,userPassWord,userDateOfBirth,userLives){
+        this.userName = userName;
+        this.userPassWord = userPassWord;
+        this.userDateOfBirth = userDateOfBirth;
+        this.userLives = userLives;
+    }
+};
+
+const allInfoForUser = new UserInfo("Let-Archer","GrEEnReDDOne",`10/21/73`,"Peoria");
+
