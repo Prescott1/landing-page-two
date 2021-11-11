@@ -127,3 +127,17 @@ const oldArray = ["Jordan","Prescott","Akiya","Thompson"];
 const newArray = [...oldArray,"Jamie","Prescott"]; // Using the spread operator to share the data from oldArray to newArray.
 console.log(newArray);
 
+const randomObject = {
+    someName: "Jordan",
+    someLastName: "Presscott",
+    age: 25
+};
+
+const spreadObject = {
+    ...randomObject,  // Using the spread operator to share the data from randomObject to the new object to spreadObject.
+    likesToDo: ["Coding","Programming","Woodworking","Walking"]
+};
+
+console.log(spreadObject);
+
+
